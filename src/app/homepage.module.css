@@ -1,0 +1,20 @@
+.about_section {
+  color: var(--colour-darkest-blue);
+  display: flex;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.profile_img {
+  border-radius: 20%;
+  border: var(--colour-darkest-blue) 3px solid;
+}
+
+.stack_section {
+  background-color: var(--colour-darkest-blue);
+  color: var(--colour-white);
+}
+
+.projects_section {
+  color: var(--colour-darkest-blue);
+}
