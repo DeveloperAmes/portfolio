@@ -7,7 +7,7 @@ export default function HeaderNav() {
       <Link href={"/"}>Home</Link>
       <Link href={"/about"}>About</Link>
       <Link href={"/projects"}>Projects</Link>
-      <Link href={"/contact"}>Contact Me</Link>
+      <Link href={"/contact"}>Contact</Link>
     </nav>
   );
 }
