@@ -2,25 +2,27 @@
   background-color: var(--colour-white);
   color: var(--colour-darkest-blue);
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(160px, 100%), 1fr));
+  justify-items: center;
+  column-gap: 1.5rem;
 }
 
 .about_text {
-  max-width: 50vw;
+  max-width: 30rem;
+  text-wrap: wrap;
 }
 
 .profile_img {
   border-radius: 20%;
   border: var(--colour-darkest-blue) 3px solid;
-  min-height: 30vh;
-  max-height: 50vh;
+  min-height: 10rem;
+  max-height: 12rem;
   width: auto;
 }
 
 .stack_section {
   background-color: var(--colour-darkest-blue);
   color: var(--colour-white);
-  width: 100%;
   margin: 0;
   padding: 0 4rem;
 }
@@ -32,4 +34,10 @@
 
 .projects_section {
   color: var(--colour-darkest-blue);
+}
+
+@media (min-width: 425px) {
+  .about_section {
+    justify-items: left;
+  }
 }
