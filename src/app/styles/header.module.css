@@ -2,10 +2,6 @@
   height: 20vh;
   background-color: var(--colour-darkest-blue);
   color: var(--colour-white);
-  h1,
-  h2 {
-    text-align: center;
-  }
 }
 
 .navbar {

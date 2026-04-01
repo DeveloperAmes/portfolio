@@ -6,6 +6,8 @@ export default function Home() {
     <main>
       <section className={homepageStyles.about_section}>
         <div>
+          <h1>Amy Tuck</h1>
+          <h2>Software Developer</h2>
           <Image
             src="/assets/profilepic2.jpg"
             alt=""

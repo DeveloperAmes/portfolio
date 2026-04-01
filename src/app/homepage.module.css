@@ -1,29 +1,28 @@
 .about_section {
   background-color: var(--colour-white);
   color: var(--colour-darkest-blue);
-  display: flex;
-  flex-direction: column;
-  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 .about_text {
-  margin: 2rem 0;
-  width: 50vw;
-  text-align: center;
+  max-width: 50vw;
 }
 
 .profile_img {
-  margin: auto;
   border-radius: 20%;
   border: var(--colour-darkest-blue) 3px solid;
   min-height: 30vh;
-  max-height: 40vh;
+  max-height: 50vh;
   width: auto;
 }
 
 .stack_section {
   background-color: var(--colour-darkest-blue);
   color: var(--colour-white);
+  width: 100%;
+  margin: 0;
+  padding: 0 4rem;
 }
 
 .stack_grid {
