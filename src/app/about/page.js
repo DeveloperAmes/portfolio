@@ -8,13 +8,13 @@ export default function AboutPage() {
           particularly interested in the economic burden of certain
           non-communicable diseases. During my undergraduate degree, I fell in
           love with coding during my computational research project, which used
-          the university&apos;s own high performance computingcluster and R to
+          the university&apos;s own high performance computing cluster and R to
           analyse bacterial genomes from gut microbiota.
           <br />
           <br />
-          I found it fascinating just how much lifestyle factors could
-          influenced the development of these diseases, and so I went on to
-          study Human Nutrition as Master&apos;s level.
+          I found it fascinating just how much lifestyle factors could influence
+          the development of these diseases, and so I went on to study Human
+          Nutrition as Master&apos;s level.
           <br />
           <br />
           After graduating, I worked for both Bupa and the NHS in roles that
