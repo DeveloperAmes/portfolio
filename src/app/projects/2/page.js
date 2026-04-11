@@ -1,3 +1,9 @@
+import ProjectPage from "@/app/components/ProjectPage";
+
 export default function Project2() {
-  return;
+  return (
+    <main>
+      <ProjectPage />
+    </main>
+  );
 }
