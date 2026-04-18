@@ -1,4 +1,5 @@
 import Link from "next/link";
+import ProjectNameLink from "../components/ProjectNameLink";
 
 export default function ProjectsPage() {
   return (
@@ -6,22 +7,13 @@ export default function ProjectsPage() {
       <section>
         <h1>Projects</h1>
         <ul>
-          <li>
-            <h2>Project 1 Title</h2>
-            <Link href={"/projects/1"}>Link to Project 1</Link>
-          </li>
-          <li>
-            <h2>Project 2 Title</h2>
-            <Link href={"/projects/2"}>Link to Project 2</Link>
-          </li>
-          <li>
-            <h2>Project 3 Title</h2>
-            <Link href={"/projects/3"}>Link to Project 3</Link>
-          </li>
-          <li>
-            <h2>Project 4 Title</h2>
-            <Link href={"/projects/4"}>Link to Project 4</Link>
-          </li>
+          <ProjectNameLink title={"DietDine"} href={"/projects/1"} />
+          <ProjectNameLink title={"Tiny Wins"} href={"/projects/2"} />
+          <ProjectNameLink title={"Kickabout"} href={"/projects/3"} />
+          <ProjectNameLink
+            title={"Mobile App (React Native) - Coming Soon"}
+            href={"/projects/4"}
+          />
         </ul>
       </section>
     </main>

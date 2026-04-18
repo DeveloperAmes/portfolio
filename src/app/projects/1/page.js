@@ -1,8 +1,10 @@
 import ProjectPage from "@/app/components/ProjectPage";
+import BackToProjectsPage from "@/app/components/BackToProjectsPage";
 
 export default function Project1() {
   return (
     <main>
+      <BackToProjectsPage />
       <ProjectPage
         h1content="DietDine"
         p1content={
