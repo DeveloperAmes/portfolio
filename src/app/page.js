@@ -1,5 +1,6 @@
 import homepageStyles from "./homepage.module.css";
 import Image from "next/image";
+import StackItem from "./components/StackItem";
 
 export default function Home() {
   return (
@@ -27,7 +28,24 @@ export default function Home() {
       </section>
       <section className={homepageStyles.stack_section}>
         <h4>My Tech Stack</h4>
-        <div className={homepageStyles.stack_grid}></div>
+        <div className={homepageStyles.stack_grid}>
+          <StackItem src={"/assets/HTML5.png"} alt={"HTML5 icon"} />
+          <StackItem src={"/assets/CSS3.png"} alt={"CSS3 icon"} />
+          <StackItem src={"/assets/JavaScript.png"} alt={"JavaScript icon"} />
+          <StackItem src={"/assets/TypeScript.png"} alt={"TypeScript icon"} />
+          <StackItem src={"/assets/Next.js.png"} alt={"Next.js icon"} />
+          <StackItem src={"/assets/Node.js.png"} alt={"Node.js icon"} />
+          <StackItem
+            src={"/assets/PostgresSQL.png"}
+            alt={"Postgres SQL icon"}
+          />
+          <StackItem src={"/assets/Python.png"} alt={"Python icon"} />
+          <StackItem src={"/assets/React.png"} alt={"React icon"} />
+          <StackItem
+            src={"/assets/Tailwind CSS.png"}
+            alt={"Tailwind CSS icon"}
+          />
+        </div>
       </section>
       <section className={homepageStyles.projects_section}>
         <h5>Recently Added Projects</h5>
