@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <main>
       <section className={homepageStyles.about_section}>
-        <div>
+        <div className={homepageStyles.img_div}>
           <Image
             src="/assets/profilepic2.jpg"
             alt=""
