@@ -24,12 +24,12 @@
   background-color: var(--colour-darkest-blue);
   color: var(--colour-white);
   margin: 0;
-  padding: 0 4rem;
+  padding: 2rem 4rem;
 }
 
 .stack_grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
   gap: 2rem;
   place-items: center;
 }

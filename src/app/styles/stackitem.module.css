@@ -1,0 +1,5 @@
+.img {
+    background: var(--colour-white);
+    box-sizing: content-box;
+    padding: 0.7em;
+}
