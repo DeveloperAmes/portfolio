@@ -1,5 +1,7 @@
 .img {
-    background: var(--colour-white);
+    background: rgba(248, 249, 250, 0.35);
+    border: rgba(248, 249, 250, 0.6) solid 2px;
+    border-radius: 20%;
     box-sizing: content-box;
-    padding: 0.7em;
+    padding: 1em;
 }
