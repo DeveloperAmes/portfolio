@@ -1,6 +1,7 @@
 import homepageStyles from "./homepage.module.css";
 import Image from "next/image";
 import StackItem from "./components/StackItem";
+import ProjectCard from "./components/ProjectCard";
 
 export default function Home() {
   return (
@@ -49,6 +50,11 @@ export default function Home() {
       </section>
       <section className={homepageStyles.projects_section}>
         <h5>Recently Added Projects</h5>
+        <div className={homepageStyles.projects_container}>
+          <ProjectCard />
+          <ProjectCard />
+          <ProjectCard />
+        </div>
       </section>
     </main>
   );
