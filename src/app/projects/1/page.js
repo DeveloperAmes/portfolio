@@ -13,15 +13,17 @@ export default function Project1() {
         p2content={
           "...my work in the NHS as a dietetic assistant practitioner.One of the most difficult diets to do is the low FODMAP diet - a 6-8 week diet that restricts high FODMAP foods and gradually reintroduces them. One of the biggest barriers that stopped patients from wanting to do the diet, and feedback from those who had completed the diet found that it was so difficult to go out to eat. I suggested to my team maybe making some sort of locally available online site where patients could anonymously post restaurants that they had found in the local area, but it didn't seem feasible at the time."
         }
-        p3content={
+        builtwithlistcontent={
           <ul>
             <li>{"HTML"}</li>
             <li>{"CSS"}</li>
             <li>{"JavaScript"}</li>
             <li>{"PostgresSQL"}</li>
             <li>{"Leaflet.js"}</li>
+            <li>{"Hosted on Render"}</li>
           </ul>
         }
+        nextstepslistcontent={<ul></ul>}
       />
     </main>
   );

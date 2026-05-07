@@ -2,7 +2,8 @@ export default function ProjectPage({
   h1content,
   p1content,
   p2content,
-  p3content,
+  builtwithlistcontent,
+  nextstepslistcontent,
 }) {
   return (
     <section>
@@ -12,7 +13,9 @@ export default function ProjectPage({
       <h3>Inspired by...</h3>
       <p>{p2content}</p>
       <h4>Built with:</h4>
-      {p3content}
+      {builtwithlistcontent}
+      <h5>Next Steps:</h5>
+      {nextstepslistcontent}
     </section>
   );
 }

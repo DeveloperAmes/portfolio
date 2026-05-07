@@ -13,7 +13,7 @@ export default function Project2() {
         p2content={
           "...my own experiences in which I  struggle with executive dysfunction and need some encouragement to help me get things done."
         }
-        p3content={
+        builtwithlistcontent={
           <ul>
             <li>{"React"}</li>
             <li>{"NextJS"}</li>
@@ -22,6 +22,7 @@ export default function Project2() {
             <li>{"Clerk auth"}</li>
           </ul>
         }
+        nextstepslistcontent={<ul></ul>}
       />
     </main>
   );
