@@ -12,7 +12,7 @@ export default function ProjectPage({
       <h3>Inspired by...</h3>
       <p>{p2content}</p>
       <h4>Built with:</h4>
-      <p>{p3content}</p>
+      {p3content}
     </section>
   );
 }
